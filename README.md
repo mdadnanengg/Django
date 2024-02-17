@@ -23,7 +23,7 @@
 5. python manage.py runserver
 
 04 Django Template Language | DTL
-1. create folder ex. template and home.html file.
+1. create folder ex. templates and home.html file.
 2. change in settings.py 
 'DIRS': [os.path.join(BASE_DIR, 'template')],
 3. also change in views.py 
