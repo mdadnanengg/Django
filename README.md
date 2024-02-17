@@ -40,3 +40,6 @@ render(req, 'home.html', {'name': 'Adnan'})
 2. POST method is secure and prevent visible in url.
 
 06 Model View Template | MVT
+1. Modal is for data. like database, schema
+2. Template is the normal HTML, CSS, JS but it will also have DTL.
+3. View process the request means logical part. also Modal to Template
