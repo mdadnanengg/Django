@@ -3,7 +3,10 @@
 
 <h1>Hello {{name}}!!!</h1>
 
-<form action="add">
+<form action="add" method="post">
+
+    {% csrf_token %}
+
     <h4>Enter two numbers to add</h4>
     <label>Enter 1st number : </label>
     <input type="text" name="num1">
