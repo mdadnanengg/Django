@@ -7,8 +7,9 @@
 01 basic info
 
 1. Django is Free and open-source framework for building web apps with python.
-2. MVT (Model View Template) Similar to MVC.
-3. Why Django - Fast, Feature Pack, Secure, Scalability.
+2. we have simillir frameworks (Flask, Tornado)
+3. MVT (Model View Template) Similar to MVC.
+4. Why Django - Fast, Feature Pack, Secure, Scalability.
 
 02 create project
 
