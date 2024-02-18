@@ -20,8 +20,10 @@
 02 create project
 
 1. pip (Installer manager for python)
-2. pip command `pip install pipenv`
+2. pip command 
 
+- `pip install pipenv`
+- `pipenv install django`
 - `pip install virtualenvwrapper-win`
 - `mkvirtualenv test`
 - `pip install django`
