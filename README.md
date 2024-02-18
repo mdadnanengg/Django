@@ -9,8 +9,8 @@
 1. Django is Free and open-source framework for building web apps with python.
 2. we have simillir frameworks (Flask, Tornado)
 3. Companies using (YouTube, Instagram, Spotify, Dropbox)
-4. Django is batteries included framework it comes with lots of feature out of box so we dont have make it from strach. 
- -The admin side interface
+4. Django is batteries included framework it comes with lots of feature out of box so we dont have make it from strach.
+ - The admin side interface
  - Object-relational mappper (ORM)
  - Authentication
  - Caching
