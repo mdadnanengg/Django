@@ -20,7 +20,8 @@
 02 create project
 
 1. pip (Installer manager for python)
-2. pip command 
+2. pip command
+3. Pipfile is like pakage.json
 
 - `pip install pipenv`
 - `pipenv install django`
