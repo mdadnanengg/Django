@@ -4,7 +4,7 @@
 - `python .\manage.py startapp travel`
 - `python .\manage.py collectstatics`
 
-01 basic info Django
+01 basic info
 
 1. Django is Free and open-source framework for building web apps with python.
 2. we have simillir frameworks (Flask, Tornado)
@@ -20,7 +20,7 @@
 02 create project
 
 1. pip (Installer manager for python)
-2. pip commands
+2. pip command `pip install pipenv`
 
 - `pip install virtualenvwrapper-win`
 - `mkvirtualenv test`
