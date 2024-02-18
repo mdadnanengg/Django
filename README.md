@@ -4,12 +4,18 @@
 - `python .\manage.py startapp travel`
 - `python .\manage.py collectstatics`
 
-01 basic info
+01 basic info Django
 
 1. Django is Free and open-source framework for building web apps with python.
 2. we have simillir frameworks (Flask, Tornado)
-3. MVT (Model View Template) Similar to MVC.
-4. Why Django - Fast, Feature Pack, Secure, Scalability.
+3. Companies using (YouTube, Instagram, Spotify, Dropbox)
+4. Django is batteries included framework it comes with lots of feature out of box so we dont have make it from strach. 
+ -The admin side interface
+ - Object-relational mappper (ORM)
+ - Authentication
+ - Caching
+6. Django work on MVT (Model View Template) Similar to MVC.
+7. Why Django - Fast, Feature Pack, Secure, Scalability.
 
 02 create project
 
