@@ -1,3 +1,7 @@
+00 useful commands
+python .\manage.py runserver
+python .\manage.py startapp travel
+
 01 basic info
 
 1. Django is framework.
@@ -40,3 +44,8 @@ render(req, 'home.html', {'name': 'Adnan'})
 1. Modal is for data. like database, schema
 2. Template is the normal HTML, CSS, JS but it will also have DTL.
 3. View process the request means logical part. also Modal to Template
+
+07 Static Files
+1. Static Files are user cannot interaction with UI. 
+2. like html CSS
+3. we can serve Static Files from Django
