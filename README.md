@@ -25,9 +25,10 @@
 
 - `pip install pipenv`
 - `pipenv install django`
+- `pipenv shell`
+- `django-admin startproject storefront`
 - `pip install virtualenvwrapper-win`
 - `mkvirtualenv test`
-- `pip install django`
 - `django-admin --version`
 - `django-admin startproject project`
 - `cd .\server\`
