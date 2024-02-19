@@ -32,7 +32,16 @@
 - `mkvirtualenv test` (optional)
 - `python manage.py runserver`
 
-03 First App
+03 Folder Structure
+- when we create django app. so every django app has exact same structure.
+1. admin module - here we define how the admin interface for this app is going to look like.
+2. app module - here we configure this app.
+3. models module - where we define the modal classes for this app we use modal classes to pull out data from databse.
+4. tests module - for write out unit tests.
+5. views module - for request handler or controller
+6. settings module - every time when create a it must add in settings module,
+
+04 First App
 
 1. python manage.py startapp calc
 2. create urls.py inside calc and make one route
@@ -40,7 +49,7 @@
 4. include urls.py in main urls.py
 5. python manage.py runserver
 
-04 Django Template Language | DTL
+05 Django Template Language | DTL
 
 1. create folder ex. templates and home.html file.
 2. change in settings.py
@@ -51,18 +60,18 @@
 render(req, 'home.html', {'name': 'Adnan'})
 <h1>Hello {{name}}!!!</h1>
 
-05 GET vs POST HTTP method
+06 GET vs POST HTTP method
 
 1. GET method send data through query param. its visible in the URL. also increase URL length
 2. POST method is secure and prevent visible in URL.
 
-06 Model View Template | MVT
+07 Model View Template | MVT
 
 1. Modal is for data. like database, schema
 2. Template is the normal HTML, CSS, JS but it will also have DTL.
 3. View process the request means logical part. also Modal to Template
 
-07 Static Files
+08 Static Files
 
 1. Static Files are user cannot interaction with UI.
 2. like html CSS
