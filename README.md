@@ -97,12 +97,11 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 
 09 Insatlling Django Debug Toolbar
 1.  pip install django-debug-toolbar
-2.  `MIDDLEWARE = ["debug_toolbar.middleware.DebugToolbarMiddleware",]
+ ```
+MIDDLEWARE = ["debug_toolbar.middleware.DebugToolbarMiddleware",]
 INTERNAL_IPS = ["127.0.0.1",]
-INSTALLED_APPS = [
-    'debug_toolbar'
-]
+INSTALLED_APPS = ['debug_toolbar',]
 path("__debug__/", include("debug_toolbar.urls")),
-`
+```
 
    
