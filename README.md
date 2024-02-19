@@ -9,9 +9,9 @@
 1. Django is Free and open-source framework for building web apps with python.
 2. we have simillir frameworks (Flask, Tornado)
 3. Companies using (YouTube, Instagram, Spotify, Dropbox)
-4. Django is batteries included framework it comes with lots of feature out of box so we dont have make it from strach.
+4. Django is batteries included framework it comes with lots of feature out of box so we don't have make it from scratch.
  - The admin side interface
- - Object-relational mappper (ORM)
+ - Object-relational mapper (ORM)
  - Authentication
  - Caching
 6. Django work on MVT (Model View Template) Similar to MVC.
@@ -21,7 +21,7 @@
 
 1. pip (Installer manager for python)
 2. pip command
-3. Pipfile is like pakage.json
+3. Pipfile is like package.json
 
 - `pip install pipenv`
 - `pipenv install django`
@@ -36,7 +36,7 @@
 - when we create django app. so every django app has exact same structure.
 1. admin module - here we define how the admin interface for this app is going to look like.
 2. app module - here we configure this app.
-3. models module - where we define the modal classes for this app we use modal classes to pull out data from databse.
+3. models module - where we define the modal classes for this app we use modal classes to pull out data from database.
 4. tests module - for write out unit tests.
 5. views module - for request handler or controller
 6. settings module - every time when create a it must add in settings module.
