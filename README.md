@@ -93,3 +93,13 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 5. you have href when you send css and other file
    `{% load static %}`
    `{% static 'file_path' %}`
+
+
+09 Insatlling Django Debug Toolbar
+1.  pip install django-debug-toolbar
+ ```
+MIDDLEWARE = ["debug_toolbar.middleware.DebugToolbarMiddleware",]
+INTERNAL_IPS = ["127.0.0.1",]
+INSTALLED_APPS = ['debug_toolbar',]
+path("__debug__/", include("debug_toolbar.urls")),
+```
