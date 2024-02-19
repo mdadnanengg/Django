@@ -1,8 +1,8 @@
 00 useful commands
 
-- `python .\manage.py runserver`
-- `python .\manage.py startapp travel`
-- `python .\manage.py collectstatics`
+- To Run server `python .\manage.py runserver`
+- To create app `python .\manage.py startapp playground`
+- To collect static file `python .\manage.py collectstatic`
 
 01 basic info
 
