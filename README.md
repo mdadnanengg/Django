@@ -26,12 +26,10 @@
 - `pip install pipenv`
 - `pipenv install django`
 - `pipenv shell`
-- `django-admin startproject storefront`
+- `django-admin --version`
+- `django-admin startproject storefront` (delete folder and type `django-admin startproject storefront .` to avoid addition directory)
 - `pip install virtualenvwrapper-win`
 - `mkvirtualenv test`
-- `django-admin --version`
-- `django-admin startproject project`
-- `cd .\server\`
 - `python manage.py runserver`
 
 03 First App
