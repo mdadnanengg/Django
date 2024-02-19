@@ -90,7 +90,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 
 4. in django we used this command to use static files
    `python .\manage.py collectstatics`
-5. you have href when you send css and other file
+5. you have modify href when you send css and other file
    `{% load static %}`
    `{% static 'file_path' %}`
 
