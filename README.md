@@ -104,3 +104,6 @@ INTERNAL_IPS = ["127.0.0.1",]
 INSTALLED_APPS = ['debug_toolbar',]
 path("__debug__/", include("debug_toolbar.urls")),
 ```
+
+**10 Models and Migrations in Django**
+
