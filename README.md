@@ -39,7 +39,8 @@
 3. models module - where we define the modal classes for this app we use modal classes to pull out data from databse.
 4. tests module - for write out unit tests.
 5. views module - for request handler or controller
-6. settings module - every time when create a it must add in settings module,
+6. settings module - every time when create a it must add in settings module.
+7. urls module - where we define the our routes.
 
 04 First App
 
