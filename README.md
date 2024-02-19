@@ -41,6 +41,7 @@
 5. views module - for request handler or controller
 6. settings module - every time when create a it must add in settings module.
 7. urls module - where we define the our routes.
+8. templates folder - template for return html content to the client here we can write html.
 
 04 First App
 
