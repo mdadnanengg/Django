@@ -107,3 +107,12 @@ path("__debug__/", include("debug_toolbar.urls")),
 
 **10 Models and Migrations in Django**
 
+**11 Making route using fastapi pakate**
+`virtualenv env`
+`cd .\env\Scripts\`
+`./Activate`
+`https://github.com/astral-sh/uv`
+`pip install uv`
+`uv pip install fastapi uvicorn`
+`python .\app.py `
+
